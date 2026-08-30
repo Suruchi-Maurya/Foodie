@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cake dishesh cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> -->
+    <style>
+       
+        .card-img-top{
+            border-radius: 50px;
+            padding: 20px;
+        }
+        .card{
+            border-radius: 30px;
+            box-shadow: 2px 2px 10px black;
+            margin-bottom: 10px;
+        }
+        .card-body{
+            padding: 25px;
+            margin-top:-15px;
+        }
+    
+        .btn-danger:hover{
+            background: #000;
+        }
+       .card h3,h4{
+            color: rgb(250, 40, 65);
+        }
+      
+    </style>
+
+    
+</head>
+<body>
+    <div class="container py-5">
+
+
+        <div class="row">
+            
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+          <div class="logo ms-2">
+              <img src="./img/logo-2.png" class="logo" alt="">
+          </div>
+            
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">   <img src="./img/logo-2.png" class="logo" alt=""></h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2" href="./contact.html">Book Table</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2" href="./contact.html">Popular Dishesh</a>
+                    </li>
+      
+                   
+                  </ul>
+                </div>
+              </div>
+              <!-- <a href="#" class="login-button text-decoration-none">Login</a> -->
+              <a href="./login.html" class="nav-item  side-icon">
+                  <i class="fa-solid fa-user py-3" ></i>
+                </a>
+            
+              <a href="#" class="nav-item side-icon">
+                  <i class="fa-solid fa-cart-shopping-shopping py-3 "></i>
+                </a>
+                       <a href="#" class="login-button text-decoration-none ms-3">Order Now</a>
+              <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          </nav>
+        </div>
+
+
+        <h1 class="text-center">Popular dishes</h1>
+
+        <div class="row mt-3">
+            <div class="col-sm-6 col-lg-4">
+                <div class="card mb-3">
+                    <img class="card-img-top" src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2018/04/sicilian-cheese-1-1024x626.jpg.webp" height="300" alt="CAKE-1">
+                    <div class="card-body">
+                        <div class="card-title"><h4> Cheese Pizza
+                        </h4></div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloremque, atque eaque perferendis maiores enim voluptate adipisci accusamus esse numquam rem aperiam nihil id nobis!></p>
+                    </div>
+                    <div class="d-flex justify-content-around mb-5">
+                        <h3>190 $</h3>
+                        <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card-2 -->
+             <div class="col-sm-6  col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_570541132.jpg.webp" height="300" alt="CAKE-1">
+                <div class="card-body">
+                    <div class="card-title"><h4> Veggie Pizza</h4></div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloremque, atque eaque perferendis maiores enim voluptate adipisci accusamus esse numquam rem aperiam nihil id nobis!></p>
+                </div>
+                <div class="d-flex justify-content-around mb-5">
+                    <h3>130 $</h3>
+                    <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            </div>
+
+            <!-- card-3 -->
+             <div class="col-sm-6 col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_514457074.jpg.webp" height="300" alt="CAKE-1">
+                <div class="card-body">
+                    <div class="card-title"><h4>Pepperoni Pizza</h4></div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloremque, atque eaque perferendis maiores enim voluptate adipisci accusamus esse numquam rem aperiam nihil id nobis!></p>
+                </div>
+                <div class="d-flex justify-content-around mb-5">
+                    <h3>150 $</h3>
+                    <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            </div>
+
+          
+             <div class="col-sm-6 col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/11/The-210-Carnivore-pizza-1024x682.jpg.webp" height="300" alt="CAKE-1">
+                <div class="card-body">
+                    <div class="card-title"><h4> Meat Pizza</h4></div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloremque, atque eaque perferendis maiores enim voluptate adipisci accusamus esse numquam rem aperiam nihil id nobis!></p>
+                </div>
+                <div class="d-flex justify-content-around mb-5">
+                    <h3>110 $</h3>
+                    <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            </div>
+
+          
+
+           
+        
+      <br/>
+        
+      
+            <div class="col-sm-6 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="./img/pizza1.png" height="300" alt="CAKE-1">
+                    <div class="card-body">
+                        <div class="card-title"><h4> Margherita Pizza</h4></div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloremque, atque eaque perferendis maiores enim voluptate adipisci accusamus esse numquam rem aperiam nihil id nobis!></p>
+                    </div>
+                    <div class="d-flex justify-content-around mb-5">
+                        <h3>120 $</h3>
+                        <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card-2 -->
+             <div class="col-sm-6 col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="./img/pizza4.png" height="300" alt="CAKE-1">
+                <div class="card-body">
+                    <div class="card-title"><h4>BBQ Chicken Pizza</h4></div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloremque, atque eaque perferendis maiores enim voluptate adipisci accusamus esse numquam rem aperiam nihil id nobis!></p>
+                </div>
+                <div class="d-flex justify-content-around mb-5">
+                    <h3>150 $</h3>
+                    <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            </div>
+
+            <!-- card-3 -->
+             <div class="col-sm-6 col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_313437680.jpg.webp" height="300" alt="CAKE-1">
+                <div class="card-body">
+                    <div class="card-title"><h4>Hawaiian Pizza</h4></div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloremque, atque eaque perferendis maiores enim voluptate adipisci accusamus esse numquam rem aperiam nihil id nobis!></p>
+                </div>
+                <div class="d-flex justify-content-around mb-5">
+                    <h3>90$</h3>
+                    <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            </div>
+             <div class="col-sm-6 col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_244706695.jpg.webp"  height="300" alt="CAKE-1">
+                <div class="card-body">
+                    <div class="card-title"><h4> Supreme Pizza</h4></div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloremque, atque eaque perferendis maiores enim voluptate adipisci accusamus esse numquam rem aperiam nihil id nobis!></p>
+                </div>
+                <div class="d-flex justify-content-around mb-5">
+                    <h3>100 $</h3>
+                    <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            </div>
+             <div class="col-sm-6 col-lg-4">
+            <div class="card">
+                <img class="card-img-top" src="./img/pizza3.png" height="300" alt="CAKE-1">
+                <div class="card-body">
+                    <div class="card-title"><h4>New York style pizza</h4></div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis doloremque, atque eaque perferendis maiores enim voluptate adipisci accusamus esse numquam rem aperiam nihil id nobis!></p>
+                </div>
+                <div class="d-flex justify-content-around mb-5">
+                    <h3>180 $</h3>
+                    <button class="btn btn-danger"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            </div>
+
+          
+
+        </div>   
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
